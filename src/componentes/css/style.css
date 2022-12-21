@@ -137,7 +137,7 @@ section{
     margin-bottom: 3%;
 }
 .sec-img img{ 
-    width: 350px;
+    width: 100%;
     height: auto;
 }
 hr{

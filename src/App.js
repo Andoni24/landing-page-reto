@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import './componentes/css/style.css'
 import Sections from './componentes/body/sections';
 import Footer from './componentes/footer/pie';
