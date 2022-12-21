@@ -2,6 +2,7 @@ import React from 'react';
 import toggleIcon from '../../img/toggle.png'
 import { Nav } from 'react-bootstrap';
 import NavOffCanvas from './NavOffCanvas';
+import logo from '../../img/logo.png'
 
 class Navegador extends React.Component{
   constructor(props) {
@@ -58,7 +59,7 @@ toggleElements(event){
                  <button id="toggleButton" type="button" className="navbar-toggler" onClick={this.offCanvasToggle}>
                          <img id="togglerIcon" src={toggleIcon} style={{width: 50+'px',height: 'auto'}} alt={"logo"}></img>
                  </button>
-                 <a href="#" alt="logo" className="navbar navbar-brand d-none d-md-block text-light">LOGO</a>
+                 <a href="#" alt="logo" className="navbar navbar-brand d-none d-md-block"><img src={logo}></img></a>
                  <div className="d-none d-md-block collapse navbar-collapse justify-content-end" id="navbarNav">
                      <ul className="navbar-nav">
                      <Nav.Item>
