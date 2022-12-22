@@ -12,7 +12,8 @@ body{
     font-family: 'Noto Sans', sans-serif !important;
 }
 .megamenu{
-    background: #1A535C;
+    width: 80% !important;
+    background: #fff;
     z-index: 100;
 }
 nav{
@@ -50,6 +51,7 @@ nav{
 }
 .nav-link{
     padding: 5px 1rem !important;
+    color: #1A535C !important;
 }
 .custom-navbar{
     padding: 18px 20px;
@@ -142,6 +144,9 @@ section{
 }
 hr{
     border-top: 3px solid #FF6B6B !important;
+}
+.info-servicios{
+    flex-basis: 200%;
 }
 .info-servicios h2{
     text-align: end;

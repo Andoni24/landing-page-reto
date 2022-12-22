@@ -63,22 +63,22 @@ toggleElements(event){
                  <div className="d-none d-md-block collapse navbar-collapse justify-content-end" id="navbarNav">
                      <ul className="navbar-nav">
                      <Nav.Item>
-                        <Nav.Link className='text-white active'>
+                        <Nav.Link className= 'active'>
                          INICIO
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link className='text-white' href='#nosotros'>
+                        <Nav.Link href='#nosotros'>
                          NOSOTROS
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link className='text-white' href='#servicios'>
+                        <Nav.Link  href='#servicios'>
                          SERVICIOS
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link className='text-white' href='#contactanos'>
+                        <Nav.Link  href='#contactanos'>
                          CONTACTANOS
                         </Nav.Link>
                       </Nav.Item>
